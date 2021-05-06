@@ -7,7 +7,7 @@
     3    Fully automatic page segmentation, but no OSD. (Default)
     4    Assume a single column of text of variable sizes.
     5    Assume a single uniform block of vertically aligned text.
-    6    Assume a single uniform block of text.
+    6    Assume a single uniform block of text. 
     7    Treat the image as a single text line.
     8    Treat the image as a single word.
     9    Treat the image as a single word in a circle.
@@ -16,11 +16,14 @@
     12    Sparse text with OSD.
     13    Raw line. Treat the image as a single text line,
 
+# Bad Output: 0, 2, 5, 6, 7, 8, 9, 10, 13
+# Good Ouptut: 1, 3, 4, 11 & 12(not original structure)
+
 2. OEM: OCR Engine Mode - Which algorithm to use
-    0 = Original Tesseract only.
-    1 = Neural nets LSTM only.
+    **0 = Original Tesseract only.
+    **1 = Neural nets LSTM only.
     2 = Tesseract + LSTM.
-    3 = Default, based on what is available.
+    **3 = Default, based on what is available.
 
 --------------
 Engine Configs:
@@ -49,5 +52,5 @@ Engine Configs:
 9. textord_no_rejects: T
     Don’t remove noise blobs
     # Keep True if default is F
-    
+
 10. tessedit_init_config_only: T
