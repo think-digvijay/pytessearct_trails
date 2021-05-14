@@ -309,3 +309,5 @@ PyTessearct Core Config/Test/Test_Data/ROSEMOUNT INC/4403789930/ROSEMOUNT INC_44
 PyTessearct Core Config/Test/Test_Data/ROSEMOUNT INC/4403819815/4403819815.pdf
 PyTessearct Core Config/Test/Test_Data/ROSEMOUNT INC/4403819815/ROSEMOUNT INC_4403819815_c_0.jpg
 PyTessearct Core Config/Test/Test_Data/ROSEMOUNT INC/4403819815/ROSEMOUNT INC_4403819815_t_0.jpg
+PyTessearct Core Config/Test/Camelot/1.csv
+.gitignore
