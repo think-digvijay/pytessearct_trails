@@ -313,3 +313,8 @@ PyTessearct Core Config/Test/Camelot/1.csv
 .gitignore
 PyTessearct Core Config/Test/Camelot/2.csv
 PyTessearct Core Config/Test/Camelot/cropped.pdf
+PyTessearct Core Config/Test/Camelot/foo.zip
+PyTessearct Core Config/Test/Camelot/rosemount-page-1-table-2.csv
+PyTessearct Core Config/Test/Camelot/rosemount-page-1-table-1.csv
+PyTessearct Core Config/Test/Camelot/rosemount-page-1-table-3.csv
+PyTessearct Core Config/Test/Camelot/rosemount.zip
